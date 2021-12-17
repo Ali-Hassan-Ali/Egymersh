@@ -1,0 +1,162 @@
+.containter {
+  position: relative;
+}
+
+.logo-and-img{
+  position: relative;
+  height: 720px;
+  margin-bottom: 20px;
+  background-color: #eee;
+}
+
+.dragContainer {
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+
+  border: 2px red;
+  border-style: dotted;
+  border-radius: 2%;
+
+  z-index: 12
+}
+
+.logoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* margin-left: 100px; */
+}
+.row li {
+  width: 33.3%;
+  float: left;
+}
+
+img {
+  border: 0 none;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.containter {
+  position: relative;
+}
+
+.logoContainer {
+  position: absolute;
+  z-index: 1;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.d-none {
+    display: none !important;
+}
+.bg-btn-size { background: #088178; }
+.b-radius {
+    border: solid 4px #088178;
+    border-radius: 50% !important;
+}
+.center-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.new-price {
+    color: green;
+    font-weight: bold;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.btn-radius {
+    /*border-radius: 10px;*/
+}
+#blah{
+    z-index: 10;
+    /*position: absolute;*/
+    left: 0;
+    /*top: -100%;*/
+    margin: 0px 0px 0px 0px;
+}
+
+#drag-1, #drag-2 {
+  width: 25%;
+  min-height: 6.5em;
+  margin: 1rem 0 0 1rem;
+  background-color: #29e;
+  color: white;
+  border-radius: 0.75em;
+  padding: 4%;
+  touch-action: none;
+  user-select: none;
+  transform: translate(0px, 0px);
+}
+
+.resize-drag {
+  width: 50%;
+  border: 2px red solid;
+
+  touch-action: none;
+
+  /* This makes things *much* easier */
+  box-sizing: border-box;
+  position: absolute;
+}
+.bg-logo {
+    position: absolute;
+    left: 0px;
+    /*right: 0px!important;*/
+    /*height: 0px!important;*/
+    /*width: 0px!important;*/
+    object-fit: none!important;
+}
+
+
+.cover-image {
+    position: absolute;
+    z-index: 2;
+    top: auto;
+    left: auto;
+    width: 308px;
+    height: 374px;
+    border: 1px dotted #e86767;
+    overflow: hidden;
+}
+.noty_theme__mint.noty_type__warning {
+        background-color: #ffffff;
+        color: red;
+}
+.text-light-country,
+.niceCountryInputMenuDropdownContent a{
+    @if (session()->get('darkmode') == 'dark')
+        color: #fff;
+    @else
+        color: black;
+    @endif
+
+}
+.text-ligh {
+    color: #fff;
+}

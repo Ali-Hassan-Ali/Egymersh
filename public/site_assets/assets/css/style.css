@@ -1,0 +1,14 @@
+.answer { display:none }
+.error {border-color: #dc3545}
+.center-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.bg-border {
+   border-radius: 50%;
+   padding: 10px
+}
